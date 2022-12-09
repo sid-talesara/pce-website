@@ -1,0 +1,12 @@
+// ! base
+@import "./base/variables";
+@import "./base/mediaQueryManager";
+@import "./base/base";
+@import "./base/btns";
+@import "./base/headings";
+
+// ! Components
+@import "./components/nav";
+
+// pages
+@import "./components/Department/department.scss";
