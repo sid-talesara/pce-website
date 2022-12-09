@@ -1,13 +1,9 @@
-// //Import Images
-// import image from "../assets/Images/bird.jpg";
-// import hod from "../assets/Images/hod-cs 1.png";
-
 
  [
     {
       "deptHeading": "About the Computer Engineering Department",
-      "mainImg": image,
-      "secondaryImg": athlete2,
+      "mainImg": "../assets/Images/bird.jpg",
+      "secondaryImg": "../assets/Images/hod-cs 1.png",
       "url": "/department/computer-engineering",
       "deptContent":
         "Computer Engineering combines the academic disciplines of electronics engineering and computer sciences which helps our engineering graduates to combine their understanding of computer hardware and software to innovate the stream. Computer engineering programmes prepare graduates for highly valued, sky-high careers in design, development, research and testing of various hardware and software. The department focuses not only on the theoretical aspects but emphasize the overall development of the students. It conducts various co-curricular activities such as informative workshops and industrial visits to companies. It makes the student industry ready with all practical exposer, expert talks on new technologies, technical events like coding competition, hackathon, etc. We believe, such activities help them to meet the demands of Industry or existing market.",
@@ -15,23 +11,23 @@
         {
           "point1":
             "Evolve as a center of excellence with wider recognition and to adapt the rapid innovation in Computer Engineering.",
-         " point2": "",
-          "point3": "",
-        },
+          "point2": "this is point 2",
+          "point3": "this is point 3"
+        }
       ],
-     " mission": [
+     "mission": [
         {
           "point1":
             " To provide a learning-centered environment that will enable students and faculty members to achieve their goals empowering them to compete globally for the most desirable careers in academia and industry.",
-         " point2": "",
-         " point3": "",
-        },
+         "point2": "Hey there this is point 2",
+         "point3": "Hey there this is point 3"
+        }
       ],
-      "deptImage1": image,
-      "deptImage2": image,
-      "deptImage3": image,
-      "deptImage4": image,
-      "deptImage5": image,
+      "deptImage1": "../assets/Images/hod-cs 1.png",
+      "deptImage2": "../assets/Images/hod-cs 1.png",
+      "deptImage3": "../assets/Images/hod-cs 1.png",
+      "deptImage4": "../assets/Images/hod-cs 1.png",
+      "deptImage5": "../assets/Images/hod-cs 1.png",
 
       "hodName": "Dr. Nikita Jain",
       "hodDept": "HOD Computer Engineering",
@@ -42,8 +38,8 @@
       "program": "B.tech. (Computer Engineering)",
       "Intake2020": 500,
       "Intake2021": 500,
-      "Intake2022": 500,
-    },
+      "Intake2022": 500
+    }
 
 ]
 
