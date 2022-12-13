@@ -1,0 +1,15 @@
+.nacc_container {
+  width: 80%;
+  margin: auto;
+  padding: 100px;
+  min-height: 50vh;
+}
+.accordionDetails_container {
+  margin: 15px;
+}
+@media only screen and (max-width: 576px) {
+  .nacc_container {
+    width: 90%;
+    padding: 0px;
+  }
+}

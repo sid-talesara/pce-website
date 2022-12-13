@@ -1,0 +1,68 @@
+.msgs__wrap {
+  width: 100%;
+  .slider {
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
+    //   margin: 2rem 0rem;
+  }
+}
+
+.msgs {
+  background-color: $color-white;
+  padding: 3.6rem;
+  width: 100%;
+  text-align: center;
+}
+
+.msgs {
+  text-align: center;
+
+  &__heading {
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 4rem 0rem;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 1rem;
+  }
+
+  &__section {
+    display: flex;
+    margin: 4.4rem 0rem;
+    padding: 2rem;
+    box-shadow: 0rem 0.1rem 0.6rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+
+    &__graphics {
+      width: 40%;
+      padding: 3rem;
+
+      margin: 1rem;
+      margin-top: 0;
+      flex-wrap: wrap;
+
+      img {
+        width: 100%;
+
+        height: 28rem;
+        object-fit: cover;
+        border-radius: 0.7rem;
+      }
+
+      h3 {
+        font-size: 2.1rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__content {
+      width: 70%;
+      font-size: 1.6rem;
+      text-align: justify;
+    }
+  }
+}

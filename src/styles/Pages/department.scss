@@ -1,0 +1,145 @@
+.department__wrap {
+  width: 100%;
+  .slider {
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
+    margin: 2rem 0rem;
+  }
+}
+.department {
+  background-color: $color-white;
+  border-radius: 1rem;
+  padding: 3.6rem;
+  width: 100%;
+  // box-shadow: 0rem 0.1rem 0.6rem 0rem rgba(0, 0, 0, 0.25);
+
+  &__heading {
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 6rem 0rem;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 1rem;
+  }
+  &__content,
+  &__visionContent,
+  &__missionContent {
+    font-size: 1.6rem;
+    margin: 3rem 0rem;
+    text-align: justify;
+  }
+
+  &__vision,
+  &__mission {
+    font-size: 2.1rem;
+    color: white;
+    background-color: red;
+    width: 20rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+
+  &__imagesWrap {
+    display: flex;
+    flex-wrap: wrap;
+    // max-width: 300rem;
+    width: auto;
+    justify-content: center;
+  }
+}
+
+.departments-images {
+  min-width: 30%;
+  max-width: 45%;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.2rem 0.4rem 0rem black;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.hod {
+  text-align: center;
+
+  &__heading {
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 6rem 0rem;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 1rem;
+  }
+
+  &__section {
+    display: flex;
+    margin: 4.4rem 0rem;
+
+    &__graphics {
+      width: 30%;
+
+      margin: auto;
+      margin-top: 0;
+      flex-wrap: wrap;
+
+      img {
+        width: 20rem;
+
+        height: 28rem;
+      }
+
+      h3 {
+        font-size: 2.1rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__content {
+      width: 60%;
+      font-size: 1.6rem;
+      text-align: justify;
+    }
+  }
+}
+
+.programs {
+  font-size: 1.6rem;
+
+  text-align: center;
+  margin: auto;
+  padding: 4rem 0rem;
+
+  &__heading {
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 6rem 0rem;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 1rem;
+  }
+  table {
+    border: 1px solid #b3adad;
+    border-collapse: collapse;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+  }
+  table th {
+    border: 1px solid #b3adad;
+    padding: 1rem;
+    background: #f0f0f0;
+    color: #313030;
+  }
+  table td {
+    border: 1px solid #b3adad;
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    color: #313030;
+  }
+}

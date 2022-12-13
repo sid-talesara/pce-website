@@ -1,0 +1,23 @@
+.facilitiespage {
+  padding: 50px 0;
+}
+.girdContainer {
+  width: 70%;
+  margin: auto;
+  padding: 3rem;
+  background-color: #f9f9f9;
+}
+.hideTextContainer {
+  display: none;
+}
+.showTextContainer {
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+@media only screen and (max-width: 576px) {
+  .girdContainer {
+    padding: 2rem;
+    width: 80%;
+  }
+}

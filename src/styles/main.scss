@@ -1,0 +1,23 @@
+// ! base
+@import "./base/variables";
+@import "./base/mediaQueryManager";
+@import "./base/base";
+@import "./base/btns";
+@import "./base/headings";
+
+// pages
+@import "./Pages/app";
+@import "./Pages/naac";
+@import "./Pages/gallery";
+@import "./Pages/contact";
+@import "./Pages/facilities";
+@import "./Pages/department.scss";
+@import "./Pages/About/VMQ.scss";
+@import "./Pages/About/messages.scss";
+@import "./Pages/About/history.scss";
+
+// ! Components
+
+@import "./components/additional";
+@import "./components/header";
+@import "./components/footer";
