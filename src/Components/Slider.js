@@ -1,7 +1,13 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-const Slider = ({ images }) => {
+import image1 from "../Assets/images/Slider/1.png";
+import image2 from "../Assets/images/Slider/2.png";
+import image3 from "../Assets/images/Slider/3.jpg";
+import image4 from "../Assets/images/Slider/4.jpg";
+
+const images = [image1, image2, image3, image4];
+const Slider = () => {
   return (
     <Carousel
       className="slider"
@@ -15,12 +21,12 @@ const Slider = ({ images }) => {
       showThumbs={false}
       showStatus={false}
       dynamicHeight={true}
-      emulateTouch={true}>
+      emulateTouch={true}
+      interval={5000}>
       {images?.map((image, i) => {
-        console.log(image);
         return (
           <div>
-            <img src={image.url} key={i} alt={image.text} />
+            <img src={image} key={i} alt={`slider image${i + 1}`} />
           </div>
         );
       })}

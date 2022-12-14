@@ -74,7 +74,7 @@ const Gallery = () => {
     <div>
       <Box sx={{ flexGrow: 1 }} className="girdContainer">
         <h1 className="primary_heading">Photo Gallery</h1>
-        <Grid container spacing={{ xs: 2, md: 3, lg: 10 }} justify="center">
+        <Grid container spacing={{ xs: 2, md: 3, lg: 4 }} justify="center">
           {galeryData.map((data, i) => {
             return (
               <>

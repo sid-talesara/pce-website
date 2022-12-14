@@ -5,12 +5,12 @@ const handleSubmit = () => {};
 const Contact = () => {
   return (
     <div className="contactPage">
-      <h1 className="contact_heading">
+      <h1 className="contact_heading secondary_heading_two">
         <span>Contact</span> Us
       </h1>
       <div className="contactPage_container">
         <div className="contact_form_container">
-          <h3>Drop Down Your Message</h3>
+          <h3 className="secondary_heading_one">Drop Your Message</h3>
           <div className="contact_form">
             <input
               type="text"

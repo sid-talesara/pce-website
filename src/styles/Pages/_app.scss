@@ -1,13 +1,16 @@
 .app__page {
-  margin-top: 260px;
+  margin-top: 21rem;
   min-height: 80vh;
 }
 .sliderContainer {
   width: 100%;
-  height: 600px;
+}
+.MuiSvgIcon-root {
+  width: 2rem !important;
+  height: 2rem !important;
 }
 @media only screen and (max-width: 576px) {
   .app__page {
-    margin-top: 140px;
+    margin-top: 14rem;
   }
 }

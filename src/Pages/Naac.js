@@ -4,6 +4,8 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import pdf1 from "../Assets/images/Naac/IIQA-Self Declaration-PCE.pdf";
+import pdf2 from "../Assets/images/Naac/IIQA-Undertaking-PCE.pdf";
 const Naac = () => {
   return (
     <div className="nacc_container">
@@ -31,16 +33,12 @@ const Naac = () => {
         <AccordionDetails>
           <Typography>
             <div className="accordionDetails_container">
-              <a
-                href="https://drive.google.com/drive/u/1/folders/1bRH4x-PQywMrobIbdUPN-ZHadJyrl5Hf"
-                target="_blank">
+              <a href={pdf1} target="_blank">
                 IIQA-Self Declaration-PCE{" "}
               </a>
             </div>
             <div className="accordionDetails_container">
-              <a
-                href="https://drive.google.com/drive/u/1/folders/1bRH4x-PQywMrobIbdUPN-ZHadJyrl5Hf"
-                target="_blank">
+              <a href={pdf2} target="_blank">
                 IIQA Undertaking-PCE{" "}
               </a>
             </div>

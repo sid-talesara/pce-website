@@ -26,8 +26,8 @@ const Header = () => {
     },
     { value: "Library", url: "http://pcelibrary.poornima.org/" },
     { value: "Coverage", route: "/gallery" },
-    { value: "Syllabus", route: "/gallery" },
-    { value: "Downloads", route: "/gallery" },
+    { value: "Syllabus", url: " https://www.rtu.ac.in/RTU/b-tech-2012-13" },
+    { value: "Downloads", route: "/downloads" },
     {
       value: "IEEE_Xplore",
       url: "https://ieeexplore.ieee.org/Xplore/home.jsp",

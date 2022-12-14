@@ -27,10 +27,16 @@
   align-items: center;
   padding: 20px 0;
 }
+
 .checkbox_container {
   align-items: center;
   display: flex;
   margin: 20px 0;
+}
+
+.checkbox_container > input {
+  width: 2rem;
+  height: 2rem;
 }
 .contactPage_container > .contact_form_container > .contact_form > .submitbtn {
   background-color: #fff;
@@ -39,6 +45,9 @@
 
   padding: 10px 0;
   font-size: 20px;
+}
+.contactPage_image {
+  width: 50rem;
 }
 img {
   width: 100%;

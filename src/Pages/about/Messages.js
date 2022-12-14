@@ -2,7 +2,8 @@ import React from "react";
 // data
 import data from "./messages.json";
 // images
-import image from "../../Assets/images/bird.jpg";
+// import image from "../../Assets/images/bird.jpg";
+const image = "";
 const Messages = () => {
   return (
     <div className="msgs__wrap">

@@ -1,7 +1,8 @@
 import React from "react";
 
 // images
-import image from "../../Assets/images/bird.jpg";
+// import image from "../../Assets/images/bird.jpg";
+const image = "";
 const History = () => {
   return (
     <div className="history__wrap ">

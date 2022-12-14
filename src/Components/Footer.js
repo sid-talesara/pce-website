@@ -17,7 +17,7 @@ const Footer = () => {
       <Grid container spacing={3} className="footer">
         <Grid item lg={3} sm={8} md={4}>
           <div className="contact_details">
-            <h3>CONTACT US</h3>
+            <h3 className="secondary_heading_one">CONTACT US</h3>
             <h5>
               Poorima College of Engineering, <br />
               ISI-6 RIICO Institutional Area, <br />
@@ -42,7 +42,7 @@ const Footer = () => {
         </Grid>
         <Grid item lg={3} sm={8} md={4}>
           <div className="quick_links_container">
-            <h3>QUICK LINKS</h3>
+            <h3 className="secondary_heading_one">QUICK LINKS</h3>
             <div className="socialMedia_links">
               <FacebookIcon className="icon" />
               <TwitterIcon className="icon" />
@@ -54,7 +54,7 @@ const Footer = () => {
         </Grid>
         <Grid item lg={3} sm={8} md={4}>
           <div className="contact_form_container">
-            <h3>CONTACT FORM</h3>
+            <h3 className="secondary_heading_one">CONTACT FORM</h3>
             <div className="contact_form">
               <div className="fullname">
                 <input type="text" placeholder="Name" className="inputfield" />

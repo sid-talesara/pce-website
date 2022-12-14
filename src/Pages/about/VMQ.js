@@ -1,7 +1,8 @@
 import React from "react";
 
 // Images
-import image from "../../Assets/images/bird.jpg";
+// import image from "../../Assets/images/bird.jpg";
+const image = "";
 const VMQ = () => {
   return (
     <div className="vmq__wrap">

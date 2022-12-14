@@ -37,7 +37,7 @@ export default function CardContainer({ data }) {
               variant="h5"
               component="div"
               style={{
-                fontSize: "1rem",
+                fontSize: "1.5rem",
                 fontWeight: "bold",
                 textAlign: "center",
               }}>
