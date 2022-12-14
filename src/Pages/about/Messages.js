@@ -2,8 +2,8 @@ import React from "react";
 // data
 import data from "./messages.json";
 // images
-// import image from "../../Assets/images/bird.jpg";
-const image = "";
+import image from "https://media.istockphoto.com/id/635726330/photo/nahargarh-fort.jpg?b=1&s=612x612&w=0&k=20&c=rHE4_H7HKuV-YMt5qJgKuQXmwoP_2-tu06ytyVQEbwA=";
+
 const Messages = () => {
   return (
     <div className="msgs__wrap">
